@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>student information form</title> 
+	  <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #1D1F20;
+}
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: ;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: ;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}</style>                 
+</head>
+<body class="gradient-border" id="box">
+	<form action="https://www.google.com/search?q=">
+			<table  align="center">
+					<tbody><tr>
+						<th colspan="2"><h1>student information form</h1></th>
+					</tr>
+					<tr>
+						<td>student full name</td>
+						<td><input type="search" name="q"></td>
+					</tr>
+					<tr>
+						<td>student email id </td>
+						<td> <input type="email" name=""> </td>
+					</tr>
+					<tr>
+						<td>phone number</td>
+						<td><input type="text" maxlength="10" name=""></td>
+					</tr>
+					<tr>
+						<td> password </td>
+						<td><input type="password" name=""></td>
+					</tr>
+					<tr>
+						<td>addres</td>
+						<td><textarea></textarea></td>
+					</tr>
+					<tr>
+						<td rowspan="2">gender</td>
+						<td><input type="radio" name="gender">meal</td>
+						</tr><tr>
+							<td><input type="radio" name="gender">femeal</td>
+						</tr>
+					
+					<tr>
+						<td> city</td>
+							<td>	
+								<select>
+							     	<option selected="selected">rajkot</option>
+							     	<option>ahemdabhad</option>
+							     	<option>surat</option>
+							     	<option>gandhinager</option>
+							     	<option>bhavnager</option>
+								</select>
+							</td>
+					</tr>
+					<tr>
+						<td rowspan="2">hobbys</td>
+						<td>
+							<input type="radio" name="">cricaekt
+							<input type="radio" name="">futboll
+						</td>
+					</tr>
+					<tr>
+						<td><input type="check box" name="">others</td>
+					</tr>
+					<tr>
+						<td>
+							DOB
+						</td>
+						<td><input type="date" name=""></td>
+					</tr>
+					</tbody></table><table cellspacing="85" align="center">
+					<tbody><tr>
+						
+						<td><input class="h" width="100px" height="100	px" type="submit"  name="submit" alt="search" id="q"></td>
+
+					</tr>
+					</tbody></table>
+
+		
+	</form>
+</body>
+</html> 
